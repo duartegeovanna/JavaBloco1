@@ -15,6 +15,8 @@ public class Funcionario {
 		funcionario1.turno="Noturno";
 		funcionario1.desativado();
 		funcionario1.estadoAtual();
+		funcionario1.contrato();
+
 		
 		System.out.println("\nFuncionario 2");
 		funcionario2.nome="Fernanda";
@@ -23,6 +25,8 @@ public class Funcionario {
 		funcionario2.turno="Diurno";
 		funcionario2.ativado();
 		funcionario2.estadoAtual();
+		funcionario2.contrato();
+
 	}
 
 }
