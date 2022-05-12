@@ -1,0 +1,8 @@
+package Heranca;
+
+public class Animal {
+	
+	public String nome;
+	public int idade;
+	
+}

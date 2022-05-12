@@ -17,12 +17,12 @@ public class Funcionario {
 		funcionario1.estadoAtual();
 		
 		System.out.println("\nFuncionario 2");
-		funcionario1.nome="Fernanda";
-		funcionario1.idade=29;
-		funcionario1.setor="Financeiro";
-		funcionario1.turno="Diurno";
-		funcionario1.ativado();
-		funcionario1.estadoAtual();
+		funcionario2.nome="Fernanda";
+		funcionario2.idade=29;
+		funcionario2.setor="Financeiro";
+		funcionario2.turno="Diurno";
+		funcionario2.ativado();
+		funcionario2.estadoAtual();
 	}
 
 }
