@@ -2,13 +2,16 @@ package Heranca;
 
 public class Preguica extends Animal {
 	
+	@Override
 	public void som() 
 	{
 		System.out.println("Som anasalado... ee, ee, ee");
 	}
-	public void escalar()
+	
+	@Override
+	public void movimento()
 	{
-		System.out.println("Este animal some em árvores");
+		System.out.println("Subindo na árvore...");
 	}
 
 }

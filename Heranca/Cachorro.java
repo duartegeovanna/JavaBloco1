@@ -2,13 +2,16 @@ package Heranca;
 
 public class Cachorro extends Animal {
 	
+	@Override
 	public void som() 
 	{
 		System.out.println("Latindo... au, au, au");
 	}
-	public void correr()
+	
+	@Override
+	public void movimento()
 	{
-		System.out.println("Este animal corre");
+		System.out.println("Correndo...");
 	}
 
 }

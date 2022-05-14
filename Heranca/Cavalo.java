@@ -2,13 +2,16 @@ package Heranca;
 
 public class Cavalo extends Animal{
 	
+	@Override
 	public void som() 
 	{
 		System.out.println("Relinchando!!");
 	}
-	public void correr()
+	
+	@Override
+	public void movimento()
 	{
-		System.out.println("Este animal corre");
+		System.out.println("Galopando...");
 	}
 
 }
